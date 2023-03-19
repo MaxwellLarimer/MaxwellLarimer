@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# local sqlite database
+instance/
+
+venv
+staticfiles
+.env
+db.sqlite3
+
+rapidfire/static/**

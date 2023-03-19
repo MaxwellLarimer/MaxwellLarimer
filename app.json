@@ -1,0 +1,8 @@
+{
+  "name": "Rapidfire",
+  "description": "A lightweight flask app",
+  "image": "heroku/python",
+  "repository": "https://github.com/MaxwellLarimer/rapidfire",
+  "keywords": ["python", "flask" ],
+  "addons": [ "heroku-postgresql" ]
+}
