@@ -18,7 +18,7 @@ export class Home extends Component {
                   height="1000">
               </object>
               </div>
-              <Typography sx={{padding: 4}} variant='h4' align='center'>Thank you for visiting my site! I am have included my resume, but please be sure to register with your email to view all the cool applications available on my site.</Typography>
+              <Typography sx={{padding: 4}} variant='h4' align='center'> I am currently in the market for the following roles: DevOps Engineer, Cloud Engineer & Platform Engineer.</Typography>
             </Grid>
             <Grid item md={2}></Grid>
           </Grid>
