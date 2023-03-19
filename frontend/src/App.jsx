@@ -187,7 +187,7 @@ const App = () => {
                 </IconButton>
               }
               <Link to='/'>
-              <img src='/static/max-white.png' className='logo' />
+              <img src='max-white.png' className='logo' />
               </Link>
               <div className='grow' />
               {token ?
