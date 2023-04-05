@@ -9,7 +9,7 @@ export class Home extends Component {
           <Grid container spacing={6}>
             <Grid item md={2}></Grid>
             <Grid item xs={10} md={8} sx={{marginTop: 10}}>
-              <Typography variant='h2' align='center' sx={{fontWeight: 'bold'}}>Welcome To Maxwell Larimer</Typography>
+              <Typography variant='h2' align='center' sx={{fontWeight: 'bold'}}>Welcome To Maxwell Larimer's Playground</Typography>
               <div className='resume-container'>
               <Button style={{margin: 40}} color='primary' size='large' variant='contained'>Download Resume</Button>
               <object type="application/pdf"
@@ -18,7 +18,7 @@ export class Home extends Component {
                   height="1000">
               </object>
               </div>
-              <Typography sx={{padding: 4}} variant='h4' align='center'> I am currently in the market for the following roles: DevOps Engineer, Cloud Engineer & Platform Engineer.</Typography>
+              <Typography sx={{padding: 4}} variant='h4' align='left'> I am currently in the market for the following roles: <ul><li>DevOps Engineer</li><li>Cloud Engineer</li><li>Platform Engineer</li></ul></Typography>
             </Grid>
             <Grid item md={2}></Grid>
           </Grid>
